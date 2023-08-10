@@ -7,4 +7,3 @@ class Advertisement(models.Model):
     auktion = models.BooleanField("торг", help_text="Отметьте, если торг уместен")
     created_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
-
