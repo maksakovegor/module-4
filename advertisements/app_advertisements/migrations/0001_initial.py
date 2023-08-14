@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=128, verbose_name='заголовок')),
                 ('description', models.TextField(verbose_name='описание')),
                 ('price', models.DecimalField(decimal_places=2, max_digits=10, verbose_name='цена')),
-                ('auktion', models.BooleanField(help_text='Отметьте, если торг уместен', verbose_name='торг')),
+                ('aucktion', models.BooleanField(help_text='Отметьте, если торг уместен', verbose_name='торг')),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('update_at', models.DateTimeField(auto_now=True)),
             ],
